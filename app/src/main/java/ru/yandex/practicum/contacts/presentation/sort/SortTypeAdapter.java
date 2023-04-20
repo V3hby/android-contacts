@@ -90,7 +90,7 @@ public class SortTypeAdapter extends RecyclerView.Adapter<SortTypeAdapter.ViewHo
         }
     }
 
-    static class ListDiffCallback extends DiffUtil.ItemCallback<SortTypeUI> {
+    /* static class ListDiffCallback extends DiffUtil.ItemCallback<SortTypeUI> {
 
         @Override
         public boolean areItemsTheSame(@NonNull SortTypeUI oldItem, @NonNull SortTypeUI newItem) {
@@ -107,5 +107,5 @@ public class SortTypeAdapter extends RecyclerView.Adapter<SortTypeAdapter.ViewHo
         public Object getChangePayload(@NonNull SortTypeUI oldItem, @NonNull SortTypeUI newItem) {
             return newItem;
         }
-    }
+    } */
 }
